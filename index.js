@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/src/static'));
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+"/src/templates/index.html")
+    res.sendFile(__dirname+"/index.html")
 });
 
 app.use('/api/v1/hodlinfo',hodlinfoRoutes);
