@@ -64,7 +64,7 @@ set(data);
 function set(data) {
   let i=1;
   data.forEach(element =>{
-    const tr = document.createElement('div');
+    const tr = document.createElement('tr');
     tr.setAttribute('scope', `row${i++}`);
     const td1 = document.createElement('td');
     const td2 = document.createElement('td');
